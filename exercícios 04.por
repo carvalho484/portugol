@@ -8,7 +8,7 @@ programa {
     escreva ("qual vai ser a porcentagem de juros cobrado ao mes ")
     leia (juros)
     juros = juros / 100
-    total = valor * juros * meses
+    total = valor + (valor * juros * meses)
     parcela = total / meses
     escreva ("o valor do juros cobrado por mes e ", juros, "\n")
     escreva ("o valor a pagar por mes sera R$ ", parcela )
