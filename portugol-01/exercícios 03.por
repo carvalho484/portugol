@@ -7,7 +7,7 @@ programa {
     leia (b)
     escreva ("escreva o numeoro ")
     leia (c)  
-    se (a>b) (b>=c)
+    se (a>b) e (b>=c)
     escreva ("A ordem correta e ","\n",c,"\n",b,"\n",a)
   }
 }
